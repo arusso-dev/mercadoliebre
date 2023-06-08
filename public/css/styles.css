@@ -5,6 +5,8 @@ Gris oscuro: #666;
 Gris claro: #ebebeb; 
 Verde: #39b54a; */
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
@@ -169,7 +171,7 @@ section.card-footer {
     flex-direction: column;
   }
 
-  .ofertas {
+  .oferta {
     display: flex;
     flex-direction: column;
 
@@ -188,7 +190,7 @@ section.card-footer {
       flex-direction: column;
     }
   
-    .ofertas {
+    .oferta {
       display: flex;
       flex-direction: column;
   
