@@ -78,6 +78,15 @@ h3 {
     margin-left: 10px;
 }
 
+
+
+.art-grp{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .articulo  .valor .precio {
     font-size: 18px;
     margin-left: 10%;
@@ -203,6 +212,12 @@ section.card-footer {
       display: flex;
       flex-direction: column;
   
+    }
+
+    .art-grp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
   
   
